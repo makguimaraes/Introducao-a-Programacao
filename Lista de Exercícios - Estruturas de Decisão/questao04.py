@@ -7,6 +7,6 @@ media = (nota1 + nota2) / 2
 print(f'A média de {nome} foi {media}')
 
 if media >= 6:
-    print(f'{nome} passou de ano!')
+    print(f'{nome} passou de ano! ')
 else:
     print(f'{nome} reprovou.')
