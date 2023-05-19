@@ -1,4 +1,4 @@
-amigos = ['Valéria', 'Ana', 'Marcos', 'Félix', 'Reni']
+amigos = ['Valéria', 'Ana', 'Marcos', 'Félix', 'Lisa']
 
 qtd_amigos = len(amigos)
 
