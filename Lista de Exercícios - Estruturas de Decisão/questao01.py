@@ -5,4 +5,4 @@ if numero < 10:
 elif numero > 10:
     print(f'{numero} é maior que 10.')
 else:
-    print('Você digitou 10!')
+    print('Você digitou 10.')
