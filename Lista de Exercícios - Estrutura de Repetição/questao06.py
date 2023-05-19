@@ -17,28 +17,28 @@ def escolha():
 
 def impressao_convites():
     for i in range(0, qtd_convidados):
-        print(30*'-')
+        print(40*'-')
         print('CONVITE')
-        print(30*'-')
+        print(40*'-')
         print(f'\n{convidados[i]}, você está convidado para um jantar na minha casa, no dia XX/XX às XX:00h.\n')
         print('ENDEREÇO: Rua das Avenidas, XXX\n\n')
 
 def impressao_lista():
-    print(30*'-')
+    print(40*'-')
     print(f'Código do Convidado = {i}')
     print(f'Nome do Convidado(a): {convidados[i]}')
-    print(30*'-')
+    print(40*'-')
     print('\n')
 
 def substituicao_convidado():
     convidado_faltoso = input('Digite o código do convidado faltoso: ')
     convidados[convidado_faltoso] = input('Digite o nome do novo convidado: ')
     outra_substituicao = input('Deseja substituir outro convidado? (S/N)')
-    if outra_substituicao != 's'or 'S':
+    if outra_substituicao != 's' or 'S':
         escolha()
 
-print(30*'-')
+print(40*'-')
 print('GERENCIADOR DE CONVITES')
-print(30*'-')
+print(40*'-')
 
 escolha()
